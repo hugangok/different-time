@@ -2,7 +2,7 @@
 header("Cache-Control:post-check=0,pre-check=0",false);
 header("Pragma:no-cache");
 //从数据库获得uersname数组
-$mysqli  = new  mysqli ( "localhost" ,  "root" ,  "123" ,  "hu" );
+$mysqli  = new  mysqli ( "localhost" ,  "" ,  "" ,  "" );
 $result=$mysqli -> query ( "SELECT name FROM hu_user" );
 $a=array();
 while($row = mysqli_fetch_array($result))
