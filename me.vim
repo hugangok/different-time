@@ -1,7 +1,7 @@
 set noundofile
 set nobackup
 set noswapfile
-color desert
+color darkblue
 set nu
 set go=
 syntax on
