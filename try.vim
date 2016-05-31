@@ -51,5 +51,5 @@ hi Statement  cterm=bold ctermfg=Blue	     gui=bold guifg=blue
 hi Type	      cterm=NONE ctermfg=Blue	     gui=bold guifg=blue
 
 " vim: sw=2
-hi  MatchParen     guifg=#FF7F3F          guibg=grey20           gui=NONE        "配对的括号
+hi  MatchParen     guifg=yellow        guibg=grey20           gui=NONE        "配对的括号
 
